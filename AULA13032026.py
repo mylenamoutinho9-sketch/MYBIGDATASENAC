@@ -63,11 +63,4 @@
 
 # print('Estarei lá!')
 
-cadidato=float(input('Qual a idade do candidato(inteira)?'))
-
-while cadidato < 18:
-    print('Idade invalida!')
-
-while candidato2 >= 18:
-    print('informe CPF e email do candidato')
 

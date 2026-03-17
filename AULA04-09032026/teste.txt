@@ -1,0 +1,61 @@
+
+AULA05_110326
+
+(.txt= bloco de notas/ .py=python) nomes das pastas
+
+# carro=False
+# combustivel=False
+
+# # Qual a condição pra que este carro funcione?
+# #   not(F)==V        not(F)==V
+# if not carro and not combustivel: # <<< ambas as condições são verdadeiras: é o que eu quero
+#     print("Meu fusquinha está rodando.")
+# else:
+#     print("Não sobrou nada pro fusquinha.")
+
+# print('*'*15)
+
+# if not carro and not combustivel: # <<< ambas as condições são verdadeiras: é o que eu quero
+#     print("Meu fusquinha está rodando.")
+# elif carro==False or combustivel==False:
+#     print("Não sobrou nada pro fusquinha.")
+# else:
+#     print('Erro de execução.')
+
+# print('*'*15)
+
+#Melhorias: 
+
+semana = int(input("Informe o dia da semana:")) 
+ 
+if semana == 1:  
+    print("Domingo") 
+elif semana == 2: 
+    print("Segunda-feira") 
+elif semana == 3: 
+    print("Terça-feira") 
+elif semana == 4: 
+    print("Quarta-feira") 
+elif semana == 5: 
+    print("Quinta-feira") 
+elif semana == 6: 
+    print("Sexta-feira") 
+elif semana == 7: 
+    print("Sábado") 
+else: # O 'else' funciona como o 'default' 
+    print("Dia inválido")
+
+#MATCH CASE:
+mes = int(input("Informe o mês:"))
+ 
+match mes: 
+    case 1: 
+        print("Janeiro") 
+    case 2: 
+        print("Fevereiro") 
+    case 3: 
+        print("Março") 
+    case 6: 
+        print("Junho") 
+    case _: # O underline ( _ ) funciona como o 'default' ou 'else' 
+        print("Mês inválido")
