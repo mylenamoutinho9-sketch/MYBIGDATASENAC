@@ -48,4 +48,4 @@ print(type(filme))
 
 filme['duracao']='130mi'
 
-#completar 
+#incompleto
