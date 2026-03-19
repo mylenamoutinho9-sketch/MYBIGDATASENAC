@@ -47,3 +47,5 @@ print(filme)
 print(type(filme))
 
 filme['duracao']='130mi'
+
+#completar 
